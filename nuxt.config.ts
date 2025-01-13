@@ -11,6 +11,9 @@ export default defineNuxtConfig({
   hub: {
     ai: true,
     cache: true,
+    database: true,
+    kv: true,
+    blob: true,
   },
 
   // https://devtools.nuxt.com
